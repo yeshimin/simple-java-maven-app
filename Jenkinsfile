@@ -8,7 +8,9 @@ pipeline {
             }
         }
 	stage('xxxx') {
+	    steps {
 		sh 'ok.....'
+	    }
 	}
     }
 
